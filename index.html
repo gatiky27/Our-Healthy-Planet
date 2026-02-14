@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Healthy Planet | Sustainable Manufacturing Solutions</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Our Healthy Planet provides ROI-led sustainability solutions for manufacturing plants. Experts in Clean Air, Water Conservation, and Circular Economy.">
+    <meta name="keywords" content="sustainability, manufacturing, energy audit, water conservation, circular economy, ESG, BRSR, industrial sustainability India">
+    <link rel="canonical" href="https://ourhealthyplanet.in">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ourhealthyplanet.in">
+    <meta property="og:title" content="Our Healthy Planet | Integrated Sustainability Solutions">
+    <meta property="og:description" content="Reducing energy, water, and waste costs by 20-40% for manufacturing companies.">
+    <meta property="og:image" content="https://ourhealthyplanet.in/factoryfinal.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="universe">
+        <div class="main">
+            <!-- navbar -->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Our Healthy Planet Logo" class="brand-logo-img">
+                    <div class="brand-text-box">
+                        <h2>Our Healthy Planet</h2>
+                        <p>Integrated Sustainability Solutions</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-texts">
+                    <button class="solutions" onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Solutions</button>
+                    <button class="industries" onclick="document.getElementById('industries-serve').scrollIntoView({behavior: 'smooth'})">Industries</button>
+                    <button class="impact" onclick="document.getElementById('impact-section').scrollIntoView({behavior: 'smooth'})">Impact</button>
+                    <button class="whyus" onclick="document.getElementById('why-healthy-planet').scrollIntoView({behavior: 'smooth'})">Why Us</button>
+                    <button class="contact" onclick="document.getElementById('contact-journey').scrollIntoView({behavior: 'smooth'})">Contact</button>
+                    <button class="get-started" onclick="openModal()">Get Started</button>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobile-toggle" onclick="toggleMobileMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+
+            <!-- Mobile Drawer -->
+            <div class="mobile-drawer" id="mobile-drawer">
+                <div class="mobile-drawer-content">
+                    <a onclick="closeMobileMenu(); document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Solutions</a>
+                    <a onclick="closeMobileMenu(); document.getElementById('industries-serve').scrollIntoView({behavior: 'smooth'})">Industries</a>
+                    <a onclick="closeMobileMenu(); document.getElementById('impact-section').scrollIntoView({behavior: 'smooth'})">Impact</a>
+                    <a onclick="closeMobileMenu(); document.getElementById('why-healthy-planet').scrollIntoView({behavior: 'smooth'})">Why Us</a>
+                    <a onclick="closeMobileMenu(); document.getElementById('contact-journey').scrollIntoView({behavior: 'smooth'})">Contact</a>
+                    <button class="get-started-mobile" onclick="closeMobileMenu(); openModal()">Get Started</button>
+                </div>
+            </div>
+            <!-- hero page -->
+             <div class="heropage">
+                <div class="section1">
+                <div class="cleanair"><div class="blink-light"></div><p>Clean Air • Conserve Water • Circular Economy</p></div>
+                <div class="make-sustainability">Make Sustainability</div>
+                 <div class="profitable-compliant">
+                      <div class="profitable">Profitable.</div>
+                       <div class="compliant">Compliant.</div>
+                 </div>
+                      <div class="measurable">Measurable.</div>
+                <div class="caption"><p>Our Healthy Planet helps manufacturing companies reduce energy, water, and waste costs by 20-40% while meeting ESG, BRSR, and regulatory requirements.</p></div>
+                <div class="buttons">
+                <button class="request" onclick="openModal()">Request a Sustainability Assessment →</button>
+                <button class="explore" onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Explore Solutions</button>
+                </div>
+                 </div>
+            </div>
+            <!-- what we do -->
+             <div class="main1">
+                   <div class="textdiv">
+                    <div class="texdiv1"> 
+                    <h1 class="h1">What We Do</h1>
+                    <p class="p1">Sustainability should not be a cost center.</p>
+                    <p class="p2">At Healthy Planet, we deliver ROI-led sustainability solutions designed specifically for<br> manufacturing environments.</p>
+                    </div>
+                   </div>
+                   <div class="threediv">
+                       <div class="div1" onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})" style="cursor: pointer;">
+                        <div class="svg"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="icon lucide lucide-wind"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path>
+                            <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"></path>
+                            <path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path>
+                        </svg></div>
+                        <h3 class="clean">Clean Air Solutions</h3>
+                        <p class="reduce">Reduce energy costs and improve<br> workforce health</p>
+                        </div>
+                         <div class="div1" onclick="document.getElementById('water-conserve-details').scrollIntoView({behavior: 'smooth'})" style="cursor: pointer;">
+                        <div class="svg1"> <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon1 lucide lucide-droplets">
+                            <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/>
+                            <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/>
+                        </svg>
+                        </div>
+                        <h3 class="clean">Water Conservation Systems</h3>
+                        <p class="reduce">Ensure long-term water security</p>
+                        </div>
+                         <div class="div1" onclick="document.getElementById('circular-economy-details').scrollIntoView({behavior: 'smooth'})" style="cursor: pointer;">
+                        <div class="svg2"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon2 lucide lucide-refresh-cw spin">
+                            <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+                            <path d="M21 3v5h-5"/>
+                            <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+                            <path d="M8 16H3v5"/>
+                        </svg></div>
+                        <h3 class="clean">Circular Economy Models</h3>
+                        <p class="reduce">Convert waste into value</p>
+                        </div>
+                       
+                   </div>
+             </div>
+             <!-- impact snapshot -->
+              <div class="impact-snapshot">
+                <div class="textss"><h1>Impact Snapshot</h1>
+                <p>Real results from our manufacturing sustainability programs</p></div>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                class="icon-svg">
+                                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+                            </svg>
+                            </div>
+                            <h1>up to 30%</h1>
+                            <h4>Energy savings</h4>
+                    </div>
+                     <div class="card1">
+                        <div class="icon-circle">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-fg-twn11="1.47:1.1968:/src/app/components/ImpactSnapshot.tsx:56:19:1663:39:e:Icon" class="icon-svg"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg>
+                            </div>
+                            <h1>up to 60%</h1>
+                            <h4>Water reduction</h4>
+                    </div>
+                     <div class="card1">
+                        <div class="icon-circle">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-fg-twn11="1.47:1.1968:/src/app/components/ImpactSnapshot.tsx:56:19:1663:39:e:Icon" class="icon-svg"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"></path><path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"></path><path d="m14 16-3 3 3 3"></path><path d="M8.293 13.596 7.196 9.5 3.1 10.598"></path><path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"></path><path d="m13.378 9.633 4.096 1.098 1.097-4.096"></path></svg>
+                            </div>
+                            <h1>up to 90%</h1>
+                            <h4>Waste diversion</h4>
+                    </div>
+                     <div class="card1">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-fg-twn11="1.47:1.1968:/src/app/components/ImpactSnapshot.tsx:56:19:1663:39:e:Icon" class="icon-svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </div>
+                            <h1>1-3 years</h1>
+                            <h4>Payback</h4>
+                    </div>
+                </div>
+              </div>
+              <!-- Built for Manufacturing Plants -->
+               <div class="built-for">
+                <div class="built-for-container">
+                    <div class="s1">
+                        <h1>Built for Manufacturing Plants</h1>
+                        <p>Healthy Planet works with plant heads, operations teams, CFOs, and ESG leaders to deliver sustainability programs that are:</p>
+                    </div>
+                    <div class="s2">
+                        <div class="s2-1">
+                            <img src="checked.png">
+                            <p>Technically sound</p>
+                        </div>
+                        <div class="s2-1">
+                            <img src="checked.png">
+                            <p>Financially viable</p>
+                        </div>
+                        <div class="s2-1">
+                            <img src="checked.png">
+                            <p>Audit-ready</p>
+                        </div>
+                    </div>
+                    <div class="s3">
+                        <h3>Our Delivery Model</h3>
+                        <div class="delivery-track">
+                            <div class="typo">
+                                <div class="assess">
+                                    <h3>Assess</h3>
+                                </div>
+                                <div class="arrow">→</div>
+                                <div class="assess">
+                                    <h3>Design</h3>
+                                </div>
+                                <div class="arrow">→</div>
+                                <div class="assess">
+                                    <h3>Implement</h3>
+                                </div>
+                                <div class="arrow">→</div>
+                                <div class="assess">
+                                    <h3>Monitor</h3>
+                                </div>
+                                <div class="arrow">→</div>
+                                <div class="assess">
+                                    <h3>Optimise</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               
+               <!-- Clean Air Solutions Details Section -->
+               <div class="solutions-wrapper">
+               <div id="clean-air-details" class="solution-page">
+                    <header class="solution-header">
+                        <h1>Clean Air Solutions</h1>
+                        <p>Reduce energy costs and create healthier work environments</p>
+                    </header>
+
+                    <div class="solution-hero-container">
+                        <img src="industry1.jpeg" alt="Industrial Clean Air" class="solution-hero-img">
+                    </div>
+
+                    <div class="solution-cards">
+                        <!-- Card 1 -->
+                        <div class="sol-card">
+                            <div class="sol-icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+                            </div>
+                            <h3>Energy Audit & Optimisation</h3>
+                            <ul>
+                                <li>Electrical and thermal energy audits</li>
+                                <li>Process and compressed air optimisation</li>
+                                <li>HVAC and lighting efficiency</li>
+                                <li>Energy monitoring systems</li>
+                            </ul>
+                            <div class="sol-outcome">
+                                <h4>Outcome:</h4>
+                                <p>15–30% energy cost reduction</p>
+                                <p>Payback in 6–18 months</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="sol-card">
+                            <div class="sol-icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                            </div>
+                            <h3>Rooftop Solar Energy</h3>
+                            <ul>
+                                <li>Factory and warehouse rooftops</li>
+                                <li>Captive consumption and net metering</li>
+                                <li>Solar integrated with efficiency measures</li>
+                            </ul>
+                            <div class="sol-outcome">
+                                <h4>Outcome:</h4>
+                                <p>25–40% reduction in electricity cost</p>
+                                <p>Payback in 3–5 years</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="sol-card">
+                            <div class="sol-icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wind"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></svg>
+                            </div>
+                            <h3>Air Quality & Workforce Health</h3>
+                            <ul>
+                                <li>Indoor air quality monitoring (PM2.5, CO2, VOC)</li>
+                                <li>HVAC filtration upgrades</li>
+                                <li>Outdoor air purifiers</li>
+                                <li>Miyawaki green buffers</li>
+                            </ul>
+                            <div class="sol-outcome">
+                                <h4>Outcome:</h4>
+                                <p>Healthier workforce, improved productivity</p>
+                                <p>Stronger ESG performance</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               </div>
+
+               <!-- Conserve Water Solutions Details Section -->
+               <div class="solutions-wrapper">
+               <div id="water-conserve-details" class="solution-page" style="background-color: #f8fdff;">
+                    <header class="solution-header">
+                        <h1>Conserve Water Solutions</h1>
+                        <p>Ensure long-term water security for your operations</p>
+                    </header>
+
+                    <div class="solution-hero-container">
+                        <img src="dam.jpeg" alt="Industrial Water management" class="solution-hero-img">
+                    </div>
+
+                    <div class="solution-cards water-solution-grid">
+                        <!-- Card 1 -->
+                        <div class="sol-card" style="background-color: white; border: 1.5px solid #A3F4FD;">
+                            <div class="sol-icon-box" style="background-color: #008eb4;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            </div>
+                            <h3>Water Audits</h3>
+                            <ul>
+                                <li>Process water mapping</li>
+                                <li>Loss identification</li>
+                                <li>Regulatory compliance assessment</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="sol-card" style="background-color: white;  border: 1.5px solid #A3F4FD;">
+                            <div class="sol-icon-box" style="background-color: #008eb4;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-rain"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v4"/><path d="M8 14v4"/><path d="M12 16v6"/><path d="M8 22l4-4 4 4"/></svg>
+                            </div>
+                            <h3>Rainwater Harvesting</h3>
+                            <ul>
+                                <li>Rooftop and paved-area capture</li>
+                                <li>Storage or groundwater recharge</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="sol-card" style="background-color: white; border: 1.5px solid #A3F4FD;">
+                            <div class="sol-icon-box" style="background-color: #008eb4;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-recycle"><path d="M7 11V7l-5 5 5 5v-4h3a7 7 0 0 1 7 7h2a9 9 0 0 0-9-9H7Z"/><path d="M17 13v4l5-5-5-5v4h-3a7 7 0 0 0-7 7H5a9 9 0 0 1 9-9h3Z"/></svg>
+                            </div>
+                            <h3>Water Recycling & Reuse</h3>
+                            <ul>
+                                <li>STP / ETP systems</li>
+                                <li>Reuse for cooling, utilities, landscaping</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="sol-card" style="background-color: white; border: 1.5px solid #A3F4FD;">
+                            <div class="sol-icon-box" style="background-color: #008eb4;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                            </div>
+                            <h3>Smart Water Management</h3>
+                            <ul>
+                                <li>Flow meters and leak detection</li>
+                                <li>Consumption dashboards</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="water-outcome-box">
+                        <h3>Outcome</h3>
+                        <div class="water-outcome-flex">
+                            <div class="outcome-stat">
+                                <h1>30–60%</h1>
+                                <p>Reduction in freshwater usage</p>
+                            </div>
+                            <div class="outcome-stat">
+                                <h1>2–3 years</h1>
+                                <p>Payback period</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+               <!-- Circular Economy Solutions Details Section -->
+               <div id="circular-economy-details" class="solution-page">
+                    <header class="solution-header">
+                        <h1>Circular Economy Solutions</h1>
+                        <p>Convert waste into value and achieve zero landfill</p>
+                    </header>
+
+                    <div class="solution-hero-container">
+                        <img src="waste.jpeg" alt="Recycling Waste" class="solution-hero-img">
+                    </div>
+
+                    <div class="solution-cards circular-solution-grid">
+                        <!-- Card 1 -->
+                        <div class="sol-card circular-card">
+                            <div class="sol-icon-box circular-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash-2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>
+                            </div>
+                            <h3>Waste Segregation & Compliance</h3>
+                            <ul>
+                                <li>Source-level segregation</li>
+                                <li>Hazardous and non-hazardous waste handling</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="sol-card circular-card">
+                            <div class="sol-icon-box circular-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-recycle"><path d="M7 11V7l-5 5 5 5v-4h3a7 7 0 0 1 7 7h2a9 9 0 0 0-9-9H7Z"/><path d="M17 13v4l5-5-5-5v4h-3a7 7 0 0 0-7 7H5a9 9 0 0 1 9-9h3Z"/></svg>
+                            </div>
+                            <h3>Recycling & Resource Recovery</h3>
+                            <ul>
+                                <li>Plastic (PP, HDPE, PET) recycling</li>
+                                <li>Industrial scrap recovery</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="sol-card circular-card">
+                            <div class="sol-icon-box circular-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C10 14.5 10.5 15 11 20"/></svg>
+                            </div>
+                            <h3>Organic Waste Management</h3>
+                            <ul>
+                                <li>Composting</li>
+                                <li>Biogas solutions</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="sol-card circular-card">
+                            <div class="sol-icon-box circular-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                            </div>
+                            <h3>EPR & Reverse Logistics</h3>
+                            <ul>
+                                <li>Plastic Waste Management Rules compliance</li>
+                                <li>Vendor and recycler coordination</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="circular-outcome-box">
+                        <h3>Outcome</h3>
+                        <div class="circular-outcome-flex">
+                            <div class="circular-stat">
+                                <h1>70–90%</h1>
+                                <p>Landfill diversion rate</p>
+                            </div>
+                            <div class="circular-stat">
+                                <h1>Lower Costs</h1>
+                                <p>Disposal and raw material costs</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               </div>
+                <!-- Industries We Serve Section -->
+               <div id="industries-serve" class="industries-section">
+                    <header class="section-header">
+                        <h1>Industries We Serve</h1>
+                        <p>Tailored sustainability solutions for diverse sectors</p>
+                    </header>
+
+                    <div class="industry-grid">
+                        <!-- Auto -->
+                        <div class="industry-card">
+                            <div class="industry-head auto-gradient">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="industry-icon"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.9A2 2 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+                                <h3>Auto and Other Manufacturing</h3>
+                            </div>
+                            <div class="industry-body">
+                                <ul>
+                                    <li>Energy-intensive operations</li>
+                                    <li>Plastic and metal scrap recovery</li>
+                                    <li>OEM ESG compliance support</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Pharma -->
+                        <div class="industry-card">
+                            <div class="industry-head pharma-gradient">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="industry-icon"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
+                                <h3>Pharmaceuticals</h3>
+                            </div>
+                            <div class="industry-body">
+                                <ul>
+                                    <li>Water and ETP compliance</li>
+                                    <li>Clean air and controlled environments</li>
+                                    <li>Zero Liquid Discharge readiness</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- FMCG -->
+                        <div class="industry-card">
+                            <div class="industry-head fmcg-gradient">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="industry-icon"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                                <h3>FMCG</h3>
+                            </div>
+                            <div class="industry-body">
+                                <ul>
+                                    <li>Packaging and plastic waste management</li>
+                                    <li>EPR compliance</li>
+                                    <li>Brand-visible sustainability initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Housing -->
+                        <div class="industry-card">
+                            <div class="industry-head housing-gradient">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="industry-icon"><path d="M3 21h18"/><path d="M9 8h1"/><path d="M9 12h1"/><path d="M9 16h1"/><path d="M14 8h1"/><path d="M14 12h1"/><path d="M14 16h1"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
+                                <h3>Group Housing / Schools / Campuses</h3>
+                            </div>
+                            <div class="industry-body">
+                                <ul>
+                                    <li>Energy monitoring system / intensive operations</li>
+                                    <li>Water recycling / consumption optimisation</li>
+                                    <li>Plastic and metal scrap recovery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <!-- ESG & Measured Impact Section -->
+               <div id="impact-section" class="impact-section">
+                    <div class="impact-container">
+                        <!-- Left Column: ESG -->
+                        <div class="impact-column">
+                            <h2 class="impact-title">ESG & BRSR Ready</h2>
+                            <p class="impact-desc">Healthy Planet supports comprehensive sustainability reporting and compliance:</p>
+                            
+                            <div class="esg-list">
+                                <div class="esg-item">
+                                    <div class="esg-icon-box">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                                    </div>
+                                    <p>ESG strategy and reporting</p>
+                                </div>
+                                <div class="esg-item">
+                                    <div class="esg-icon-box">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bar-chart-big"><path d="M3 3v18h18"/><rect width="4" height="7" x="7" y="10" rx="1"/><rect width="4" height="12" x="15" y="5" rx="1"/></svg>
+                                    </div>
+                                    <p>BRSR disclosures</p>
+                                </div>
+                                <div class="esg-item">
+                                    <div class="esg-icon-box">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round"><path d="M14 19a6 6 0 0 0-12 0"/><circle cx="8" cy="9" r="4"/><path d="M22 19a6 6 0 0 0-6-6 4 4 0 1 0 0-8"/></svg>
+                                    </div>
+                                    <p>Customer and investor sustainability requirements</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Measured Impact -->
+                        <div class="impact-column">
+                            <h2 class="impact-title">Measured Impact</h2>
+                            <p class="impact-desc">Track and report your environmental and financial performance:</p>
+                            
+                            <div class="impact-stats-grid">
+                                <div class="stat-mini-card">
+                                    <div class="stat-icon-blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                                    </div>
+                                    <div class="stat-content">
+                                        <h4>CO₂ emissions reduced</h4>
+                                        <span>(tons/year)</span>
+                                    </div>
+                                </div>
+                                <div class="stat-mini-card">
+                                    <div class="stat-icon-blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                                    </div>
+                                    <div class="stat-content">
+                                        <h4>Water saved</h4>
+                                        <span>(KL/year)</span>
+                                    </div>
+                                </div>
+                                <div class="stat-mini-card">
+                                    <div class="stat-icon-blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                                    </div>
+                                    <div class="stat-content">
+                                        <h4>Waste diverted from landfill</h4>
+                                        <span>(tons/year)</span>
+                                    </div>
+                                </div>
+                                <div class="stat-mini-card">
+                                    <div class="stat-icon-blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                                    </div>
+                                    <div class="stat-content">
+                                        <h4>Operating cost savings</h4>
+                                        <span>(₹/year)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+               <!-- Why Healthy Planet Section -->
+               <div id="why-healthy-planet" class="why-us-section">
+                    <header class="why-us-header">
+                        <h1>Why Healthy Planet</h1>
+                        <p>Your partner in profitable, compliant sustainability</p>
+                    </header>
+
+                    <div class="why-us-grid">
+                        <!-- Card 1 -->
+                        <div class="why-card">
+                            <div class="why-icon-box">🎯</div>
+                            <h3>Manufacturing-focused expertise</h3>
+                            <p>Deep understanding of industrial processes and challenges</p>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="why-card">
+                            <div class="why-icon-box">💰</div>
+                            <h3>ROI-first sustainability approach</h3>
+                            <p>Every solution is designed to deliver measurable financial returns</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="why-card">
+                            <div class="why-icon-box">🔗</div>
+                            <h3>Integrated air, water, and circular solutions</h3>
+                            <p>Holistic approach addressing all sustainability dimensions</p>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="why-card">
+                            <div class="why-icon-box">⚡</div>
+                            <h3>End-to-end execution</h3>
+                            <p>From assessment to implementation and ongoing optimization</p>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="why-card">
+                            <div class="why-icon-box">📋</div>
+                            <h3>Transparent, auditable impact reporting</h3>
+                            <p>Clear metrics and documentation for compliance and ESG</p>
+                        </div>
+                    </div>
+               </div>
+
+               <!-- Contact / Journey Section -->
+               <div id="contact-journey" class="journey-section">
+                    <div class="journey-card">
+                        <h1>Start Your Sustainability Journey</h1>
+                        <p class="journey-desc">Talk to our experts to understand your cost savings, compliance roadmap, and environmental impact.</p>
+                        
+                        <div class="journey-buttons">
+                            <button class="btn-primary" onclick="openModal()">Request Assessment</button>
+                            <button class="btn-secondary" onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Explore Solutions</button>
+                        </div>
+
+                        <div class="journey-divider"></div>
+
+                        <div class="journey-contact-grid">
+                            <div class="contact-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                <h4>Email</h4>
+                                <p>gatik.yadav27@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                <h4>Phone</h4>
+                                <p>+91 9311680145</p>
+                            </div>
+                            <div class="contact-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+               <!-- Assessment Request Modal -->
+               <div id="assessment-modal" class="modal-overlay">
+                    <div class="modal-content">
+                        <button class="modal-close" onclick="closeModal()">×</button>
+                        <form id="assessment-form" onsubmit="handleAssessmentSubmit(event)">
+                            <div class="modal-header">
+                                <h2>Request Sustainability Assessment</h2>
+                                <p>Enter your details and our experts will get back to you within 24 hours.</p>
+                            </div>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label>Company Name</label>
+                                    <input type="text" name="Company" placeholder="Your Company Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Industrial Sector</label>
+                                    <select name="Sector" required>
+                                        <option value="">Select Sector</option>
+                                        <option value="auto">Auto & Manufacturing</option>
+                                        <option value="pharma">Pharmaceuticals</option>
+                                        <option value="fmcg">FMCG</option>
+                                        <option value="housing">Group Housing/Institutions</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" name="Name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Work Email</label>
+                                    <input type="email" name="Email" placeholder="john@company.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="tel" name="Phone" placeholder="+91 XXX XXX XXXX" oninput="this.value = this.value.replace(/[^0-9+ ]/g, '')" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Key Interest</label>
+                                    <select name="Interest" required>
+                                        <option value="energy">Energy Efficiency</option>
+                                        <option value="water">Water Conservation</option>
+                                        <option value="waste">Circular Economy/Waste</option>
+                                        <option value="all">Integrated Solutions (All)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group full-width">
+                                <label>Message (Optional)</label>
+                                <textarea name="Message" placeholder="Tell us about your specific sustainability goals..."></textarea>
+                            </div>
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_subject" value="New Sustainability Assessment Request - ourhealthyplanet.in">
+                            <input type="hidden" name="_template" value="table">
+                            <button type="submit" id="submit-btn" class="modal-submit-btn">Send Request →</button>
+                        </form>
+                        <div id="form-success" class="form-success-message">
+                            <div class="success-icon">✓</div>
+                            <h3>Request Received!</h3>
+                            <p>Thank you for reaching out. A specialist from Our Healthy Planet will contact you shortly.</p>
+                        </div>
+                    </div>
+               </div>
+
+               <!-- Modal Logic -->
+               <script>
+                    function openModal() {
+                        const modal = document.getElementById('assessment-modal');
+                        modal.style.display = 'flex';
+                        document.body.style.overflow = 'hidden'; // Prevent background scroll
+                    }
+
+                    function closeModal() {
+                        const modal = document.getElementById('assessment-modal');
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto'; // Re-enable background scroll
+                        
+                        // Reset form state after close
+                        setTimeout(() => {
+                            document.getElementById('assessment-form').style.display = 'block';
+                            document.getElementById('form-success').style.display = 'none';
+                        }, 300);
+                    }
+
+                    function handleAssessmentSubmit(event) {
+                        event.preventDefault();
+                        const form = document.getElementById('assessment-form');
+                        const success = document.getElementById('form-success');
+                        const btn = document.getElementById('submit-btn');
+                        
+                        btn.innerText = "Sending...";
+                        btn.style.opacity = "0.7";
+                        btn.disabled = true;
+
+                        const formData = new FormData(form);
+                        const data = {};
+                        formData.forEach((value, key) => {
+                            if (key !== '_honey') data[key] = value;
+                        });
+
+                        // Add domain context for production
+                        data['_cc'] = "gatik.yadav27@gmail.com"; // Ensuring delivery
+                        data['_site_url'] = "https://ourhealthyplanet.in";
+
+                        fetch("https://formsubmit.co/ajax/gatik.yadav27@gmail.com", {
+                            method: "POST",
+                            headers: { 
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json'
+                            },
+                            body: JSON.stringify(data)
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            form.style.display = 'none';
+                            success.style.display = 'block';
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert("Submission failed. Please email us directly at gatik.yadav27@gmail.com");
+                            btn.innerText = "Send Request →";
+                            btn.style.opacity = "1";
+                            btn.disabled = false;
+                        });
+                    }
+
+                    function toggleMobileMenu() {
+                        const drawer = document.getElementById('mobile-drawer');
+                        const toggle = document.getElementById('mobile-toggle');
+                        drawer.classList.toggle('active');
+                        toggle.classList.toggle('active');
+                        
+                        if (drawer.classList.contains('active')) {
+                            document.body.style.overflow = 'hidden';
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        } else {
+                            document.body.style.overflow = 'auto';
+                        }
+                    }
+
+                    function closeMobileMenu() {
+                        const drawer = document.getElementById('mobile-drawer');
+                        const toggle = document.getElementById('mobile-toggle');
+                        drawer.classList.remove('active');
+                        toggle.classList.remove('active');
+                        document.body.style.overflow = 'auto';
+                    }
+
+                    // Close modal when clicking outside content
+                    window.onclick = function(event) {
+                        const modal = document.getElementById('assessment-modal');
+                        if (event.target == modal) {
+                            closeModal();
+                        }
+                    }
+               </script>
+
+               <!-- Footer -->
+                       <!-- Footer -->
+               <footer class="footer">
+                    <div class="footer-top">
+                        <div class="footer-brand">
+                        <div class="footer-logo-box">
+                            <img src="logo.png" alt="Our Healthy Planet Logo" class="footer-logo-img">
+                            <div class="brand-text">
+                                <h2>OUR HEALTHY PLANET</h2>
+                                <p>Integrated Sustainability Solutions</p>
+                            </div>
+                        </div>
+                            <p class="brand-desc">Making sustainability profitable, compliant, and measurable for manufacturing companies across India.</p>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Solutions</h4>
+                            <div class="footer-links">
+                                <a onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Clean Air</a>
+                                <a onclick="document.getElementById('clean-air-details').scrollIntoView({behavior: 'smooth'})">Water Conservation</a>
+                                <a onclick="document.getElementById('circular-economy-details').scrollIntoView({behavior: 'smooth'})">Circular Economy</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Company</h4>
+                            <div class="footer-links">
+                                <a onclick="document.getElementById('industries-serve').scrollIntoView({behavior: 'smooth'})">Industries</a>
+                                <a onclick="document.getElementById('impact-section').scrollIntoView({behavior: 'smooth'})">Impact</a>
+                                <a onclick="document.getElementById('contact-journey').scrollIntoView({behavior: 'smooth'})">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-divider"></div>
+
+                    <div class="footer-bottom">
+                        <p>© 2026 Our Healthy Planet. All rights reserved.</p>
+                        <div class="legal-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+               </footer>
+        </div>
+    </div>
+</body>
+</html>
